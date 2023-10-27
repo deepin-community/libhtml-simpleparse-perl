@@ -1,5 +1,138 @@
-template-repository (1.0-1) unstable; urgency=medium
+libhtml-simpleparse-perl (0.12-5) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + libhtml-simpleparse-perl: Add Multi-Arch: foreign.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 13 Oct 2022 16:26:45 +0100
+
+libhtml-simpleparse-perl (0.12-4) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * Remove Jay Bonci from Uploaders. Thanks for your work!
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * debian/watch: use uscan version 4.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 14 Jun 2022 22:45:45 +0100
+
+libhtml-simpleparse-perl (0.12-3.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 02:06:57 +0100
+
+libhtml-simpleparse-perl (0.12-3) unstable; urgency=low
+
+  * Team upload.
+
+  [ Ansgar Burchardt ]
+  * Email change: Ansgar Burchardt -> ansgar@debian.org
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ gregor herrmann ]
+  * debian/control: update {versioned,alternative} (build) dependencies.
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Axel Beckert ]
+  * debian/copyright: migrate pre-1.0 format to 1.0 using "cme fix dpkg-
+    copyright"
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ gregor herrmann ]
+  * Mark package as autopkgtest-able.
+  * Declare compliance with Debian Policy 3.9.6.
+  * Switch to source format "3.0 (quilt)".
+  * Add explicit build dependency on libmodule-build-perl.
+  * Bump debhelper compatibility level to 9.
+  * Refresh license stanzas in debian/copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 07 Jun 2015 15:25:21 +0200
+
+libhtml-simpleparse-perl (0.12-2) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * debian/control: Added: Vcs-Svn field (source stanza); Vcs-Browser
+    field (source stanza); Homepage field (source stanza).
+  * Set Maintainer to Debian Perl Group.
+  * Use dist-based URL in debian/watch.
+  * debian/control: Changed: Switched Vcs-Browser field to ViewSVN
+    (source stanza).
+  * debian/control: Added: ${misc:Depends} to Depends: field.
+
+  [ Ansgar Burchardt ]
+  * Mention module name in description.
+  * Refresh rules for debhelper 7.
+  * Move debhelper to Build-Depends.
+  * Add myself to Uploaders.
+  * No longer install README (excerpt of POD documentation).
+  * Bump Standards-Version to 3.8.2.
+  * Convert debian/copyright to proposed machine-readable format.
+
+  [ gregor herrmann ]
+  * debian/watch: use extended regexp for matching upstream versions.
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Wed, 22 Jul 2009 04:11:45 +0200
+
+libhtml-simpleparse-perl (0.12-1) unstable; urgency=low
+
+  * New upstream version
+  * New Maintainer (Closes: #279791)
+  * Changed section to perl
+  * Bumped policy-version to 3.6.1
+  * Changed priority to optional
+  * Updated to debhelper version 4.1
+  * Adds watch file so uscan will work
+
+ -- Jay Bonci <jaybonci@debian.org>  Wed, 10 Nov 2004 18:16:08 -0500
+
+libhtml-simpleparse-perl (0.10-3) unstable; urgency=low
+
+  * Fix a spelling mistake in the control file,
+  Closes: #124985
+
+ -- Stephen Zander <gibreel@debian.org>  Wed, 20 Mar 2002 21:42:44 -0800
+
+libhtml-simpleparse-perl (0.10-2) unstable; urgency=low
+
+  * New maintainer, Closes: #80293
+
+ -- Stephen Zander <gibreel@debian.org>  Mon, 28 May 2001 16:06:35 -0700
+
+libhtml-simpleparse-perl (0.10-1) unstable; urgency=low
+
+  * New upstream release
+  * New yada compatible with Standards-Version: 3.1.0
+
+ -- Piotr Roszatycki <dexter@debian.org>  Fri, 21 Jul 2000 23:55:54 +0200
+
+libhtml-simpleparse-perl (0.06-2) unstable; urgency=low
+
+  * Changed copyright info
+
+ -- Piotr Roszatycki <dexter@debian.org>  Sun, 15 Aug 1999 23:57:22 +0200
+
+libhtml-simpleparse-perl (0.06-1) unstable; urgency=low
+
+  * Initial Debian version.
+
+ -- Piotr Roszatycki <dexter@debian.org>  Tue,  3 Aug 1999 00:02:55 +0200
